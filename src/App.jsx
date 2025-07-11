@@ -119,7 +119,7 @@ export default function App() {
                 {/* Input, Generate Button & Dark Mode Toggle */}
                 <div className="flex flex-col sm:flex-row gap-2 mb-8 w-full max-w-4xl flex-wrap justify-center" data-aos="fade-up">
                     <input
-                        type="text"
+                           type="text"
                         value={keyword}
                         onChange={(e) => setKeyword(e.target.value)}
                         placeholder="Enter a keyword like galaxy, forest..."
